@@ -2,8 +2,8 @@ from random import randint
 s=[]
 s=[randint(-100,100) for i in range (100)]
 print(*s)
-ma_x=101
+ma_x=-101
 for i in range (100):
-    if s[i]<ma_x:
+    if s[i]>ma_x:
         ma_x=s[i]
 print(ma_x)
