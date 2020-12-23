@@ -1,0 +1,14 @@
+from random import randint 
+s=[]
+s=[randint(-100,100) for i in range (100)]
+print(*s)
+mi_x=101
+ma_x=-101
+for i in range (100):
+    if s[i]<mi_x:
+        mi_x=s[i]
+    if s[i]>ma_x:
+        ma_x=s[i]
+print(ma_x,mi_x)
+raz=ma_x-mi_x
+print(raz)
