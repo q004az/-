@@ -5,6 +5,6 @@ s=[randint(-100,100) for i in range (100)]
 print(*s)
 sum=0
 for i in range (100):
-    if s[i]%a!=0:
+    if s[i]%a==0:
         sum+=s[i]
 print (sum)
